@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CasaCraft - Home Interior Designer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">CasaCraft<span>.</span></div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#themes">Themes</a>
+        <a href="#design">Create Design</a>
+        <a href="#videos">Videos</a>
+        
+    
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-content">
+        <p class="small-title">DESIGN YOUR DREAM HOME</p>
+        <h1>Your Home,<br> Your Style.</h1>
+        <p>
+            Create beautiful spaces with your favourite colours,
+            furniture and interior themes.
+        </p>
+        <a href="#design" class="main-btn">Design Your Home</a>
+    </div>
+
+    <div class="hero-image">
+        <img src="images/home.jpg" alt="Modern Home"  width="250" height="150">
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h2>Welcome to CasaCraft</h2>
+    <p>
+        CasaCraft helps you plan your dream home interior.
+        Select your favourite theme, room colours, furniture,
+        kitchen style and budget to create your personal design plan.
+    </p>
+</section>
+
+<section class="themes" id="themes">
+    <h2>Explore Interior Themes</h2>
+    <p class="subtitle">Choose the style that matches your personality.</p>
+
+    <div class="theme-container">
+
+        <div class="theme-card">
+            <img src="images/modern-home.jpg" alt="Modern Interior">
+            <h3>Modern Theme</h3>
+            <p>Simple, stylish and comfortable interiors.</p>
+        </div>
+
+        <div class="theme-card">
+            <img src="images/luxury-home.jpg" alt="Luxury Interior">
+            <h3>Luxury Theme</h3>
+            <p>Elegant designs with premium furniture.</p>
+        </div>
+
+        <div class="theme-card">
+            <img src="images/wall-design.jpg" alt="Minimalist Interior">
+            <h3>Minimalist Theme</h3>
+            <p>Beautiful spaces with a clean look.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="design-section" id="design">
+
+    <h2>Create Your Dream Home</h2>
+    <p class="subtitle">
+        Enter your requirements and get your interior design plan.
+    </p>
+
+    <form id="designForm">
+
+        <div class="form-grid">
+
+            <div class="form-group">
+                <label>Client Name</label>
+                <input type="text" id="clientName" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label>Home Type</label>
+                <select id="homeType" required>
+                    <option value="">Select Home Type</option>
+                    <option>1 BHK</option>
+                    <option>2 BHK</option>
+                    <option>3 BHK</option>
+                    <option>Villa</option>
+                    <option>Bungalow</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Interior Theme</label>
+                <select id="theme" required>
+                    <option value="">Select Theme</option>
+                    <option>Modern</option>
+                    <option>Luxury</option>
+                    <option>Minimalist</option>
+                    <option>Traditional</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Number of Rooms</label>
+                <select id="rooms">
+                    <option>1 Room</option>
+                    <option>2 Rooms</option>
+                    <option>3 Rooms</option>
+                    <option>4 Rooms</option>
+                    <option>5+ Rooms</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Wall Colour</label>
+                <select id="wallColor">
+                    <option>White</option>
+                    <option>Cream</option>
+                    <option>Light Grey</option>
+                    <option>Sky Blue</option>
+                    <option>Peach</option>
+                    <option>Mint Green</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Furniture Style</label>
+                <select id="furniture">
+                    <option>Modern Furniture</option>
+                    <option>Wooden Furniture</option>
+                    <option>Luxury Furniture</option>
+                    <option>Minimal Furniture</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Wall Pattern</label>
+                <select id="pattern">
+                    <option>Plain Wall</option>
+                    <option>Floral Pattern</option>
+                    <option>Geometric Pattern</option>
+                    <option>Textured Wall</option>
+                    <option>Wallpaper Design</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Kitchen Style</label>
+                <select id="kitchen">
+                    <option>Modular Kitchen</option>
+                    <option>Modern Kitchen</option>
+                    <option>Traditional Kitchen</option>
+                    <option>Open Kitchen</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Home Budget</label>
+                <select id="budget">
+                    <option>Below ₹5 Lakh</option>
+                    <option>₹5 - ₹10 Lakh</option>
+                    <option>₹10 - ₹20 Lakh</option>
+                    <option>₹20 - ₹30 Lakh</option>
+                    <option>Above ₹30 Lakh</option>
+                </select>
+            </div>
+
+            <section class="video-section">
+    <h2>Interior Design Videos</h2>
+    <p>Watch beautiful interior design ideas.</p>
+
+
+    
+<!-- CasaCraft Video Section -->
+
+<section class="video-section" id="videos">
+
+    <h2>🏡 CasaCraft Visual Tour</h2>
+
+    <p>
+        Explore beautiful home interiors and get inspired
+        by modern home designs.
+    </p>
+
+    <div class="video-container">
+
+        <div class="video-card">
+            <video controls>
+                <source src="bedroom.mp4" type="video/mp4">
+            </video>
+            <h3>Bedroom Room Design</h3>
+        </div>
+
+        <div class="video-card">
+            <video controls>
+                <source src="furniture design.mp4" type="video/mp4">
+            </video>
+            <h3>Furniture Design</h3>
+        </div>
+
+        <div class="video-card">
+            <video controls>
+                <source src="home-design.mp4" type="video/mp4">
+            </video>
+            <h3>Home Design</h3>
+        </div>
+
+        <div class="video-card">
+            <video controls>
+                <source src="home-interior.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </div>
+
+</section>
+
+
+    
+
+        </div>
+
+        <button type="submit" class="main-btn">
+            Generate My Design ✨
+        </button>
+
+    </form>
+
+</section>
+
+<section class="result-section" id="resultSection">
+
+    <h2>Your Dream Home Design</h2>
+    <p class="subtitle">Your personalised interior design plan is ready!</p>
+
+    <div class="result-info" id="resultInfo"></div>
+
+    <div class="design-grid">
+
+        <div class="design-card">
+            <img src="images/living-room.jpg" alt="Living Room">
+            <div>
+                <h3>Living Room</h3>
+                <p id="livingText">Your living room design.</p>
+            </div>
+        </div>
+
+        <div class="design-card">
+            <img src="images/bedroom.jpg" alt="Bedroom">
+            <div>
+                <h3>Bedroom</h3>
+                <p id="bedroomText">Your bedroom design.</p>
+            </div>
+        </div>
+
+        <div class="design-card">
+            <img src="images/kitchen.jpg" alt="Kitchen">
+            <div>
+                <h3>Kitchen</h3>
+                <p id="kitchenText">Your kitchen design.</p>
+            </div>
+        </div>
+
+        <div class="design-card">
+            <img src="images/furniture.jpg" alt="Furniture">
+            <div>
+                <h3>Furniture & Wall Design</h3>
+                <p id="furnitureText">Your furniture design.</p>
+            </div>
+        </div>
+
+        
+
+    </div>
+
+    <button class="main-btn" onclick="window.print()">
+        Print Design Report
+    </button>
+
+</section>
+
+<footer>
+    <h2>CasaCraft.</h2>
+    <p>Designing Spaces, Creating Happiness.</p>
+    <p>© 2026 CasaCraft | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
