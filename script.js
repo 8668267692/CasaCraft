@@ -51,22 +51,3 @@ document.getElementById("designForm").addEventListener("submit", function(event)
 });
 
 
-// CasaCraft Video Controls
-
-let videos = document.querySelectorAll(".video-card video");
-
-videos.forEach(function(video) {
-
-    video.addEventListener("play", function() {
-
-        videos.forEach(function(otherVideo) {
-
-            if (otherVideo !== video) {
-                otherVideo.pause();
-            }
-
-        });
-
-    });
-
-});
